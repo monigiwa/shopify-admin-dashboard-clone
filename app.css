@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.navbar {
+  background: #1a1a1a;
+  height: 56px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* .logo-container {
+  line-height: 67px;
+} */
+.logo-container img {
+  width: 104.87px;
+  height: 30px;
+}
+input {
+  border: 1px solid #616161;
+  gap: 6px;
+  padding: 8px;
+  border-radius: 8px;
+  width: 480px;
+  height: 32px;
+  background: #303030;
+  color: #fff;
+  margin-top: 13px;
+}
+input::placeholder {
+  font-family: "Inter", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #b5b5b5;
+  width: 44px;
+  height: 18px;
+  position: relative;
+  left: 35px;
+}
+.search-icon {
+  position: relative;
+  z-index: 1;
+  top: -23px;
+  left: 25px;
+}
+.account-container {
+  display: flex;
+}
+.notification-bell,
+.profile,
+.name-acronym {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+.notification-bell {
+  width: 32px;
+  height: 32px;
+  background: #303030;
+  border-radius: 8px;
+  margin-right: 5px;
+}
+.notification-bell:focus {
+  outline: blue;
+  transition: all 100s ease-in;
+}
+.notification-bell svg {
+  width: 20px;
+  height: 20px;
+}
+.profile {
+  width: 142px;
+  height: 32px;
+  background: #303030;
+  font-family: "Inter", sans-serif;
+  border-radius: 8px;
+  color: #e3e3e3;
+  font-weight: 500;
+  font-size: 12px;
+}
+.name-acronym {
+  background: #36fba1;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  width: 28px;
+  height: 28px;
+  position: relative;
+  left: -20px;
+  border-radius: 6px;
+}
