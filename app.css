@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
+  background-color: #F1F1F1;
 }
 .navbar {
   background: #1a1a1a;
