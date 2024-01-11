@@ -92,4 +92,5 @@ input::placeholder {
   position: relative;
   left: -20px;
   border-radius: 6px;
+  text-align: center;
 }
