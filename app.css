@@ -32,10 +32,10 @@ body {
     left: -28px;
     top: 2px;
   }
-  .contents {
-    width: 383px;
-    height: 118px;
-  }
+  /* .contents {
+    /* width: 383px; */
+    /* height: 118px; */
+  /* }  */
   .contents {
     display: none !important;
   }
